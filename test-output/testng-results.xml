@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17876" started-at="2021-03-12T21:17:09 EET" finished-at="2021-03-12T21:17:26 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17876" started-at="2021-03-12T21:17:09 EET" finished-at="2021-03-12T21:17:26 EET">
+      <class name="tests.UserRegistrationWithDDTAndDataProvider">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.UserRegistrationWithDDTAndDataProvider@167fdd33]" name="startDriver" is-config="true" duration-ms="11027" started-at="2021-03-12T21:16:58 EET" finished-at="2021-03-12T21:17:09 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="UserCanRegisterSuccssfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.UserRegistrationWithDDTAndDataProvider@167fdd33]" name="UserCanRegisterSuccssfully" duration-ms="11012" started-at="2021-03-12T21:17:09 EET" data-provider="testData" finished-at="2021-03-12T21:17:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Moataz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nabil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tes131g5555s22s@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccssfully -->
+        <test-method status="PASS" signature="UserCanRegisterSuccssfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.UserRegistrationWithDDTAndDataProvider@167fdd33]" name="UserCanRegisterSuccssfully" duration-ms="6828" started-at="2021-03-12T21:17:20 EET" data-provider="testData" finished-at="2021-03-12T21:17:26 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tedf125515544@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccssfully -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.UserRegistrationWithDDTAndDataProvider@167fdd33]" name="stopDriver" is-config="true" duration-ms="827" started-at="2021-03-12T21:17:26 EET" finished-at="2021-03-12T21:17:27 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.UserRegistrationWithDDTAndDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
