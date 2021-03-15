@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Regression Suite">
-	<parameter name="browser" value="firefox" />
+	<parameter name="browser" value="chrome" />
 	<test name="Regression Test" preserve-order="false">
 		<classes>
 			<class name="tests.UserRegistrationWithDDTAndDataProvider" />
