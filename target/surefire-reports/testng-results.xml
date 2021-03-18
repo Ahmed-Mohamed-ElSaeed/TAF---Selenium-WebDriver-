@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="16673" started-at="2021-03-15T17:29:56 EET" finished-at="2021-03-15T17:30:12 EET">
+    <groups>
+    </groups>
+    <test name="Regression Test" duration-ms="16673" started-at="2021-03-15T17:29:56 EET" finished-at="2021-03-15T17:30:12 EET">
+      <class name="tests.UserRegistrationWithDDTAndDataProvider">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.UserRegistrationWithDDTAndDataProvider@4e9ba398]" name="startDriver" is-config="true" duration-ms="9108" started-at="2021-03-15T17:29:47 EET" finished-at="2021-03-15T17:29:56 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="UserCanRegisterSuccssfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.UserRegistrationWithDDTAndDataProvider@4e9ba398]" name="UserCanRegisterSuccssfully" duration-ms="9662" started-at="2021-03-15T17:29:56 EET" data-provider="testData" finished-at="2021-03-15T17:30:05 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Moataz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nabil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tes1g555s22s@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccssfully -->
+        <test-method status="PASS" signature="UserCanRegisterSuccssfully(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:tests.UserRegistrationWithDDTAndDataProvider@4e9ba398]" name="UserCanRegisterSuccssfully" duration-ms="6978" started-at="2021-03-15T17:30:05 EET" data-provider="testData" finished-at="2021-03-15T17:30:12 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tedf11@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccssfully -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.UserRegistrationWithDDTAndDataProvider@4e9ba398]" name="stopDriver" is-config="true" duration-ms="866" started-at="2021-03-15T17:30:12 EET" finished-at="2021-03-15T17:30:13 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.UserRegistrationWithDDTAndDataProvider -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

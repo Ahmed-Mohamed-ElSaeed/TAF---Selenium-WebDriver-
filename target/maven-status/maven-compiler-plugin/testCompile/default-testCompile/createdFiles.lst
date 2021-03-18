@@ -1,0 +1,6 @@
+tests\UserRegistrationWithDDTAndDataProvider.class
+tests\UserRegistrationTestWithDDTAndExcel.class
+data\LoadProperties.class
+tests\TestBase.class
+data\ExcelReader.class
+tests\UserRegistrationWithDDTAndPropertiesFile.class

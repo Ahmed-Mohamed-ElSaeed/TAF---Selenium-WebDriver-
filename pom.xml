@@ -84,7 +84,7 @@
 				</property>
 			</activation>
 			<properties>
-				<testNGSuite>TestNG.xml</testNGSuite>
+				<testNGSuite>testngParallelTesting.xml</testNGSuite>
 			</properties>
 		</profile>
 	</profiles>
